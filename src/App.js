@@ -8,7 +8,7 @@ import './App.css';  // Import the CSS file
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/library-management"r>
       <div>
         {/* Navigation Bar */}
         <nav className="navbar">
