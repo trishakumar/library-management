@@ -1,0 +1,106 @@
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .book-details {
+    text-align: center;
+  }
+  
+  .book-details h1 {
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+  }
+  
+  .book-details h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .book-image img {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+  }
+  
+  .book-details p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+  
+  .order-options {
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    max-width: 400px;
+    background-color: #f9fafb;
+  }
+  
+  .order-options h3 {
+    margin-bottom: 10px;
+    color: #1e40af;
+  }
+  
+  .order-options label {
+    display: block;
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .order-options select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .order-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+  }
+  
+  .order-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .order-options {
+      padding: 15px;
+    }
+  
+    .order-btn {
+      font-size: 0.95rem;
+    }
+  }
+  
